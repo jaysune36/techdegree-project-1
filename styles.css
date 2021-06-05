@@ -101,7 +101,9 @@ header .profile-image:hover {
 .card:hover {
   border-color: #0399ff;
 }
-
+h2 {
+  text-align: center;
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -118,6 +120,13 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #043555;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 footer {
@@ -176,6 +185,7 @@ a.social:hover {
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
+      flex-wrap: wrap;
       margin: 0 auto;
   }
 
@@ -194,23 +204,6 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
-  }
-
-  .card {
-    min-width: 320px;
-    max-width: 500px;
-  }
-
-  .one {
-    order: -2;
-  }
-
-  .two {
-    order: 1;
-  }
-
-  .third {
-    order: -1;
   }
 
   footer {
